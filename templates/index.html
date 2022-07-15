@@ -10,23 +10,25 @@
     </head>
     <body>
         <header>
-            <nav id="header-nav" class="navbar navbar-default navbar-expand-lg visible-xs">
+            <nav id="header-nav" class="navbar navbar-default navbar-expand-lg ">
                 <div class="container-fluid">
-                    <div class="navbar-brand ">
-                        <h1>Food, LLC</h1> 
+                    <div class="navbar-header">
+                        <div class="navbar-brand ">
+                            <h1>Food, LLC</h1> 
+                        </div>
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                     </div>
-                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
+                    <div id="navbarNavDropdown" class="collapse navbar-collapse visible-xs">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="visible-xs">Chicken</li>
+                            <li class="visible-xs">Beef</li>
+                            <li class="visible-xs">Sushi</li>
+                        </ul>
+                    </div>
+                 </div>
             </nav>
-            <div id="navbarNavDropdown" class="navbar-collapse collapse visible-xs">
-                <ul class="nav navbar-nav navbar-center">
-                    <li class="nav-item">Chicken</li>
-                    <li class="nav-item">Beef</li>
-                    <li class="nav-item">Sushi</li>
-                </ul>
-            </div>
             <div class="container-fluid">
                 <nav id="main-title-nav">
                     <h2>Our Menu</h2> 
