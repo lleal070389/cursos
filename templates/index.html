@@ -10,17 +10,18 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
     </head>
     <body>
+        <body>
         <header>
             <nav id="header-nav" class="navbar navbar-default navbar-expand-lg ">
                 <div class="container-fluid">
                     <div class="navbar-brand ">
                         <h1>Food, LLC</h1> 
                     </div>
-                    <button class="navbar-toggler visible-xs" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse visible-xs" id="navbarNav">
-                        <ul id="nav-list" class="nav navbar-nav navbar-right text-center">
+                        <ul id="nav-list" class="d-lg-none nav navbar-nav navbar-right text-center">
                             <li>Chicken</li>
                             <li>Beef</li>
                             <li>Sushi</li>
