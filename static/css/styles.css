@@ -58,6 +58,7 @@ body {
   background-color: silver;
   margin: 15px;
   padding: 10px;
+  width: 100%;
 }
 
 .item-title{
